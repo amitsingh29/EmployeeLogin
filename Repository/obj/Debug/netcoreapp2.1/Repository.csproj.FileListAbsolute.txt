@@ -6,3 +6,4 @@ F:\EmployeeCrud\EmployeeLogin\Repository\obj\Debug\netcoreapp2.1\Repository.cspr
 F:\EmployeeCrud\EmployeeLogin\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfoInputs.cache
 F:\EmployeeCrud\EmployeeLogin\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfo.cs
 F:\EmployeeCrud\EmployeeLogin\Repository\obj\Debug\netcoreapp2.1\Repository.genruntimeconfig.cache
+F:\EmployeeCrud\EmployeeLogin\Repository\bin\Debug\netcoreapp2.1\Model.dll
