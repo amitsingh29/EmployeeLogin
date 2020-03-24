@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\EmployeeCrud\\EmployeeLogin\\EmployeeCRUD\\EmployeeCRUD.csproj": {}
+    "F:\\EmployeeCrud\\EmployeeLogin\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "F:\\EmployeeCrud\\EmployeeLogin\\EmployeeCRUD\\EmployeeCRUD.csproj": {
+    "F:\\EmployeeCrud\\EmployeeLogin\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\EmployeeCrud\\EmployeeLogin\\EmployeeCRUD\\EmployeeCRUD.csproj",
-        "projectName": "EmployeeCRUD",
-        "projectPath": "F:\\EmployeeCrud\\EmployeeLogin\\EmployeeCRUD\\EmployeeCRUD.csproj",
+        "projectUniqueName": "F:\\EmployeeCrud\\EmployeeLogin\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "F:\\EmployeeCrud\\EmployeeLogin\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\Amit Singh\\.nuget\\packages\\",
-        "outputPath": "F:\\EmployeeCrud\\EmployeeLogin\\EmployeeCRUD\\obj\\",
+        "outputPath": "F:\\EmployeeCrud\\EmployeeLogin\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amit Singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,26 +38,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.1, )",
-              "autoReferenced": true
-            },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.2, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
-            },
-            "SwashBuckle.AspNetCore.MicrosoftExtensions": {
-              "target": "Package",
-              "version": "[0.5.0, )"
             }
           },
           "imports": [

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "2CIUt3L487vxzfr+wPqfrfajcJjbfXpGbGlGyLUiagc3T/37W2SVUQM3eOxP50TVe3p2J0ZXo323r9ONMDdk9Q==",
+  "success": true,
+  "projectFilePath": "F:\\EmployeeCrud\\EmployeeLogin\\Model\\Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Amit Singh\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\Amit Singh\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\Amit Singh\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\Amit Singh\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\Amit Singh\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\Amit Singh\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\Amit Singh\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
