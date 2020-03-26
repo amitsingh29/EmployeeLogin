@@ -8,9 +8,9 @@ namespace Repository.Repo
     public interface IRepo
     {
         
-        bool AddEmployee(Employee employee);
-        bool DeleteEmployee(int id);
-        List<Employee> GetAllEmployee();
-        bool UpdateEmployee(Employee employee);
+        Employee AddEmployee(Employee employee);
+        Employee DeleteEmployee(int id);
+        IEnumerable<Employee> GetAllEmployee();
+        Employee UpdateEmployee(Employee employee);
     }
 }
