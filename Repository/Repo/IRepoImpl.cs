@@ -3,48 +3,56 @@ using Repository.Context;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Repository.Repo
 {
     public class IRepoImpl : IRepo
     {
-        private readonly UserDatabaseContext userDBContext;
+        private readonly UserDatabaseContext userDbContext;
 
-        public IRepoImpl(UserDatabaseContext userDBContext)
+        public IRepoImpl(UserDatabaseContext userDbContext)
         {
-            this.userDBContext = userDBContext;
+            this.userDbContext = userDbContext;
         }
 
-        public Employee AddEmployee(Employee employee)
+        public Task<int> AddEmployee(Employee employee)
         {
-            userDBContext.Employee.Add(employee);
-            userDBContext.SaveChanges();
-            return employee;
+
+            userDbContext.Employee.Add(employee);
+            var result = userDbContext.SaveChangesAsync();
+            return result;
+
+        }
+
+        public Employee GetEmployee(int id)
+        {
+            return userDbContext.Employee.Find(id);
+        }
+
+        public Task<int> UpdateEmployee(Employee employeeChanges)
+        {
+            var employee = userDbContext.Employee.Attach(employeeChanges);
+            employee.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            var result = userDbContext.SaveChangesAsync();
+            return result;
         }
 
         public Employee DeleteEmployee(int id)
         {
-            Employee employee = userDBContext.Employee.Find(id);
+            Employee employee = userDbContext.Employee.Find(id);
             if (employee != null)
             {
-                userDBContext.Employee.Remove(employee);
-                userDBContext.SaveChanges();
+                userDbContext.Employee.Remove(employee);
+                userDbContext.SaveChanges();
             }
             return employee;
 
         }
-      
-        public Employee UpdateEmployee(Employee employeeChanges)
-        {
-            var employee = userDBContext.Employee.Attach(employeeChanges);
-            employee.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
-            userDBContext.SaveChanges();
-            return employeeChanges;
-        }
 
-        public IEnumerable<Employee> GetAllEmployee()
+        public IEnumerable<Employee> GetAllEmployees()
         {
-            return userDBContext.Employee;
+            return userDbContext.Employee;
         }
     }
 }

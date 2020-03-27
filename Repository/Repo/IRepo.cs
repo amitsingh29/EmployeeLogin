@@ -2,15 +2,16 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Repository.Repo
 {
     public interface IRepo
     {
-        
-        Employee AddEmployee(Employee employee);
+        Employee GetEmployee(int id);
+        Task<int> AddEmployee(Employee employee);
+        Task<int> UpdateEmployee(Employee employeeChanges);
         Employee DeleteEmployee(int id);
-        IEnumerable<Employee> GetAllEmployee();
-        Employee UpdateEmployee(Employee employee);
+        IEnumerable<Employee> GetAllEmployees();
     }
 }
