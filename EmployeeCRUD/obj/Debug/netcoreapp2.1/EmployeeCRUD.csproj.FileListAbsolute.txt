@@ -12,3 +12,12 @@ F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.
 F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.AssemblyInfo.cs
 F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.RazorTargetAssemblyInfo.cache
 F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.genruntimeconfig.cache
+F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\bin\Debug\netcoreapp2.1\EmployeeCRUD.pdb
+F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\bin\Debug\netcoreapp2.1\Model.dll
+F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\bin\Debug\netcoreapp2.1\Repository.dll
+F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\bin\Debug\netcoreapp2.1\Repository.pdb
+F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\bin\Debug\netcoreapp2.1\Model.pdb
+F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.csproj.CoreCompileInputs.cache
+F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.csproj.CopyComplete
+F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.dll
+F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.pdb

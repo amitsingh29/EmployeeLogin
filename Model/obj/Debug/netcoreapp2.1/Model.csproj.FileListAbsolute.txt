@@ -6,3 +6,7 @@ F:\EmployeeCrud\EmployeeLogin\Model\obj\Debug\netcoreapp2.1\Model.csprojAssembly
 F:\EmployeeCrud\EmployeeLogin\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfoInputs.cache
 F:\EmployeeCrud\EmployeeLogin\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfo.cs
 F:\EmployeeCrud\EmployeeLogin\Model\obj\Debug\netcoreapp2.1\Model.genruntimeconfig.cache
+F:\EmployeeCrud\EmployeeLogin\Model\bin\Debug\netcoreapp2.1\Model.pdb
+F:\EmployeeCrud\EmployeeLogin\Model\obj\Debug\netcoreapp2.1\Model.csproj.CoreCompileInputs.cache
+F:\EmployeeCrud\EmployeeLogin\Model\obj\Debug\netcoreapp2.1\Model.dll
+F:\EmployeeCrud\EmployeeLogin\Model\obj\Debug\netcoreapp2.1\Model.pdb
