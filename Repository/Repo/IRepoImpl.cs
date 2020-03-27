@@ -47,7 +47,6 @@ namespace Repository.Repo
                 userDbContext.SaveChanges();
             }
             return employee;
-
         }
 
         public IEnumerable<Employee> GetAllEmployees()
