@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository.Repo
+namespace Manager
 {
-    public interface IRepo
+    public interface IManager
     {
         Task<int> AddEmployee(Employee employee);
         Employee GetEmployee(int id);
