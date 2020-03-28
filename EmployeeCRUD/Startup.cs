@@ -30,7 +30,8 @@ namespace EmployeeCRUD
         {
             services.AddDbContextPool<UserDatabaseContext>(options => options.UseSqlServer(Configuration.GetConnectionString("UserDbConnection")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
+            services.AddTransient<IManager, ImpManager>();
+            services.AddTransient<IRepo, ImpRepo>();
             services.AddSwaggerGen(d =>
             {
                 d.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
