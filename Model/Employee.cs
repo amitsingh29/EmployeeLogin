@@ -11,6 +11,9 @@ namespace Model
     using System.Collections.Generic;
     using System.Text;
 
+    /// <summary>
+    /// The Employee class
+    /// </summary>
     public class Employee
     {
         /// <summary>
