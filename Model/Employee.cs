@@ -1,9 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿//-----------------------------------------------------------------------
+// <copyright file="Employee.cs" company="BridgeLabz">
+//     Copyright © 2020
+// </copyright>
+// <creator name="Amit Singh"/>
+//-----------------------------------------------------------------------
 
 namespace Model
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
     public class Employee
     {
         /// <summary>

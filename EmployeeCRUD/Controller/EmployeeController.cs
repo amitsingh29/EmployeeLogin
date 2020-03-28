@@ -1,19 +1,26 @@
-﻿using Manager;
-using Microsoft.AspNetCore.Mvc;
-using Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿//-----------------------------------------------------------------------
+// <copyright file="EmployeeController.cs" company="BridgeLabz">
+//     Copyright © 2020
+// </copyright>
+// <creator name="Amit Singh"/>
+//-----------------------------------------------------------------------
 
 namespace EmployeeCRUD.Controller
 {
+    using Manager;
+    using Microsoft.AspNetCore.Mvc;
+    using Model;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Threading.Tasks;
+
     [Route("api/[controller]")]
     [ApiController]
-    public class ControllerEmployee : ControllerBase
+    public class EmployeeController : ControllerBase
     {
-        public readonly IManager manager;
-        public ControllerEmployee(IManager manager)
+        public readonly IEmployeeManager manager;
+        public EmployeeController(IEmployeeManager manager)
         {
             this.manager = manager;
         }

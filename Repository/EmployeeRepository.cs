@@ -1,17 +1,24 @@
-﻿using Model;
-using Repository.Context;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿//-----------------------------------------------------------------------
+// <copyright file="EmployeeRepository.cs" company="BridgeLabz">
+//     Copyright © 2020
+// </copyright>
+// <creator name="Amit Singh"/>
+//-----------------------------------------------------------------------
 
-namespace Repository.Repo
+namespace Repository
 {
-    public class IRepoImpl : IRepo
+    using Model;
+    using Repository.Context;
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    public class EmployeeRepository : IEmployeeRepository
     {
         private readonly UserDatabaseContext userDbContext;
 
-        public IRepoImpl(UserDatabaseContext userDbContext)
+        public EmployeeRepository(UserDatabaseContext userDbContext)
         {
             this.userDbContext = userDbContext;
         }

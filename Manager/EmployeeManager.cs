@@ -1,17 +1,24 @@
-﻿using Model;
-using Repository.Repo;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿//-----------------------------------------------------------------------
+// <copyright file="EmployeeManager.cs" company="BridgeLabz">
+//     Copyright © 2020
+// </copyright>
+// <creator name="Amit Singh"/>
+//-----------------------------------------------------------------------
 
 namespace Manager
 {
-    public class ImplManager : IManager
-    {
-        private readonly IRepo repository;
+    using Model;
+    using Repository.Repo;
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+    using System.Threading.Tasks;
 
-        public ImplManager(IRepo repository)
+    public class EmployeeManager : IEmployeeManager
+    {
+        private readonly IEmployeeRepository repository;
+
+        public EmployeeManager(IEmployeeRepository repository)
         {
             this.repository = repository;
         }
