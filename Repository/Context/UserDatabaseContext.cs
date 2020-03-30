@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="Employee.cs" company="BridgeLabz">
+// <copyright file="UserDatabaseContext.cs" company="BridgeLabz">
 //     Copyright © 2020
 // </copyright>
 // <creator name="Amit Singh"/>

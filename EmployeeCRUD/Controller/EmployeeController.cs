@@ -10,6 +10,7 @@ namespace EmployeeCRUD.Controller
     using Manager;
     using Microsoft.AspNetCore.Mvc;
     using Model;
+    using Serilog;
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -45,6 +46,7 @@ namespace EmployeeCRUD.Controller
             }
             else
             {
+                Log.Error("Employee was't added");
                 return this.BadRequest();
             }
         }
@@ -58,6 +60,7 @@ namespace EmployeeCRUD.Controller
         [HttpGet]
         public Employee GetEmployee(int id)
         {
+            Log.Information("Employee with given id is available");
             return this.manager.GetEmployee(id);
         }
 
@@ -77,6 +80,7 @@ namespace EmployeeCRUD.Controller
             }
             else
             {
+                Log.Information("Employee Updated");
                 return this.BadRequest();
             }
         }
@@ -90,6 +94,7 @@ namespace EmployeeCRUD.Controller
         [Route("DeleteEmployee")]
         public Employee DeleteEmployee(int id)
         {
+            Log.Information("Employee with given id is Deleted");
             return this.manager.DeleteEmployee(id);
         }
 
@@ -101,6 +106,7 @@ namespace EmployeeCRUD.Controller
         [HttpGet]
         public IEnumerable<Employee> GetAllEmployees()
         {
+            Log.Information("All added in list");
             return this.manager.GetAllEmployees();
         }
     }

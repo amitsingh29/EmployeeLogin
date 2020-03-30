@@ -7,6 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Serilog;
 
 namespace EmployeeCRUD
 {
@@ -15,6 +16,10 @@ namespace EmployeeCRUD
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            Log.Logger = new LoggerConfiguration()
+           .MinimumLevel.Debug()
+           .WriteTo.File(@"C:\Users\Amit Singh\Desktop\Loggert.txt")
+           .CreateLogger();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
