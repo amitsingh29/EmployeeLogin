@@ -19,5 +19,12 @@ namespace QuantityMeasurementTesting
             Assert.AreEqual(expected, actual);
         }
 
+        [Test]
+        public void GivenNullTo_EqualsMethod_WhenAnalyse_ReturnTrue()
+        {
+            Feet feet = new Feet();
+            bool actual = feet.Equals(null);
+            Assert.IsTrue(actual);
+        }
     }
 }
