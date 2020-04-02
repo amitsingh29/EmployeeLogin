@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using QuantityMeasurement;
 
 namespace QuantityMeasurementTesting
 {
@@ -10,9 +11,13 @@ namespace QuantityMeasurementTesting
         }
 
         [Test]
-        public void Test1()
+        public void GivenValueIn_FeetClassEqualsValueFunction_WhenAnalyse_ReturnEqual()
         {
-            Assert.Pass();
+            Feet feet = new Feet(0);
+            int actual = feet.EqualsValue();
+            int expected = 0;
+            Assert.AreEqual(expected, actual);
         }
+
     }
 }

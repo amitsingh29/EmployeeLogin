@@ -1,0 +1,13 @@
+F:\work\Work1\Quantity\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.exe
+F:\work\Work1\Quantity\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.deps.json
+F:\work\Work1\Quantity\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.runtimeconfig.json
+F:\work\Work1\Quantity\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.runtimeconfig.dev.json
+F:\work\Work1\Quantity\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.dll
+F:\work\Work1\Quantity\QuantityMeasurement\bin\Debug\netcoreapp3.1\QuantityMeasurement.pdb
+F:\work\Work1\Quantity\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.csprojAssemblyReference.cache
+F:\work\Work1\Quantity\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.csproj.CoreCompileInputs.cache
+F:\work\Work1\Quantity\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.AssemblyInfoInputs.cache
+F:\work\Work1\Quantity\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.AssemblyInfo.cs
+F:\work\Work1\Quantity\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.dll
+F:\work\Work1\Quantity\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.pdb
+F:\work\Work1\Quantity\QuantityMeasurement\obj\Debug\netcoreapp3.1\QuantityMeasurement.genruntimeconfig.cache
