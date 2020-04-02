@@ -4633,11 +4633,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\work\\Work1\\QuantityMeasurementTesting\\QuantityMeasurementTesting.csproj",
+      "projectUniqueName": "F:\\work\\Work1\\Quantity\\QuantityMeasurementTesting\\QuantityMeasurementTesting.csproj",
       "projectName": "QuantityMeasurementTesting",
-      "projectPath": "F:\\work\\Work1\\QuantityMeasurementTesting\\QuantityMeasurementTesting.csproj",
+      "projectPath": "F:\\work\\Work1\\Quantity\\QuantityMeasurementTesting\\QuantityMeasurementTesting.csproj",
       "packagesPath": "C:\\Users\\Amit Singh\\.nuget\\packages\\",
-      "outputPath": "F:\\work\\Work1\\QuantityMeasurementTesting\\obj\\",
+      "outputPath": "F:\\work\\Work1\\Quantity\\QuantityMeasurementTesting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amit Singh\\AppData\\Roaming\\NuGet\\NuGet.Config",

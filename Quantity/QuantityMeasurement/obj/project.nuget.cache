@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6ryZvEvkQ+4dqykp/KYNN4KiPjB9+JujL27ZeX/rRVy9vxIyb342ktVwXs07voGRHHjs20cBX3ZJFxAEI+6vhg==",
+  "dgSpecHash": "hhEUr4GpaAc/JUHyCri4baelOAxwWZyS0Dcr47vPvBLeOM1TyvwvLhrwUggi59Q/Fy6ge196dDa7lmqnfneslg==",
   "success": true,
-  "projectFilePath": "F:\\work\\Work1\\QuantityMeasurement\\QuantityMeasurement.csproj",
+  "projectFilePath": "F:\\work\\Work1\\Quantity\\QuantityMeasurement\\QuantityMeasurement.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
