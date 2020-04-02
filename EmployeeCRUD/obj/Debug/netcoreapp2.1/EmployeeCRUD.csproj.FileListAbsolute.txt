@@ -1,5 +1,0 @@
-F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.csproj.CoreCompileInputs.cache
-F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.RazorAssemblyInfo.cache
-F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.RazorAssemblyInfo.cs
-F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.AssemblyInfoInputs.cache
-F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.AssemblyInfo.cs

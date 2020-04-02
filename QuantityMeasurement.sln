@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantityMeasurement", "QuantityMeasurement.csproj", "{9AFFAE9D-6A51-4751-8335-862BA12C8F11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AFFAE9D-6A51-4751-8335-862BA12C8F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AFFAE9D-6A51-4751-8335-862BA12C8F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AFFAE9D-6A51-4751-8335-862BA12C8F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AFFAE9D-6A51-4751-8335-862BA12C8F11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B200AD24-CEF9-41E8-AD34-E364D6D5ADB1}
+	EndGlobalSection
+EndGlobal

@@ -1,4 +1,0 @@
-F:\EmployeeCrud\EmployeeLogin\Repository\obj\Debug\netcoreapp2.1\Repository.csprojAssemblyReference.cache
-F:\EmployeeCrud\EmployeeLogin\Repository\obj\Debug\netcoreapp2.1\Repository.csproj.CoreCompileInputs.cache
-F:\EmployeeCrud\EmployeeLogin\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfoInputs.cache
-F:\EmployeeCrud\EmployeeLogin\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfo.cs
