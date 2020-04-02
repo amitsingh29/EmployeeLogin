@@ -26,5 +26,13 @@ namespace QuantityMeasurementTesting
             bool actual = feet.Equals(null);
             Assert.IsTrue(actual);
         }
+
+        [Test]
+        public void GivenReferenceTo_EqualsMethod_WhenAnalyse_ReturnTrue()
+        {
+            Feet feet = new Feet();
+            bool actual = feet.Equals(feet);
+            Assert.IsTrue(actual);
+        }
     }
 }
