@@ -76,5 +76,13 @@ namespace QuantityMeasurementTesting
             bool actual = inch.Equals(inch);
             Assert.IsTrue(actual);
         }
+
+        [Test]
+        public void GivenObjectTo_InchClassEqualsMethod_WhenAnalyse_ReturnTrue()
+        {
+            Inch inch = new Inch();
+            bool actual = inch.Equals(new Inch());
+            Assert.IsTrue(actual);
+        }
     }
 }
