@@ -34,5 +34,13 @@ namespace QuantityMeasurementTesting
             bool actual = feet.Equals(feet);
             Assert.IsTrue(actual);
         }
+
+        [Test]
+        public void GivenObjectType_WhenAnalyse_ReturnTrue()
+        {
+            Feet feet = new Feet();
+            bool result = feet.Equals(new Feet());
+            Assert.IsTrue(result);
+        }
     }
 }
