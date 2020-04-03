@@ -22,7 +22,7 @@ namespace QuantityMeasurement
             this.feet = feet;
         }
 
-        public int EqualsValue()
+        public int CheckFeet_Value()
         {
             return this.feet;
         }

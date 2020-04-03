@@ -13,8 +13,8 @@ namespace QuantityMeasurementTesting
         [Test]
         public void GivenValueIn_FeetClassEqualsValueFunction_WhenAnalyse_ReturnEqual()
         {
-            Feet feet = new Feet(0);
-            int actual = feet.EqualsValue();
+            UnitCheck feet = new UnitCheck(0);
+            int actual = feet.CheckLength();
             int expected = 0;
             Assert.AreEqual(expected, actual);
         }
@@ -46,8 +46,8 @@ namespace QuantityMeasurementTesting
         [Test]
         public void GivenValueToFeetClass_WhenAnalyse_ReturnEqusl()
         {
-            Feet feet = new Feet(5);
-            int actual = feet.EqualsValue();
+            UnitCheck feet = new UnitCheck(0);
+            int actual = feet.CheckLength();
             int expected = 5;
             Assert.AreEqual(expected, actual);
         }
@@ -55,8 +55,8 @@ namespace QuantityMeasurementTesting
         [Test]
         public void GivenValueIn_InchClassEqualsValueFunction_WhenAnalyse_ReturnEqual()
         {
-            Inch inch = new Inch(0);
-            int actual = inch.Equalsvalue();
+            UnitCheck inch = new UnitCheck(0);
+            int actual = inch.CheckLength();
             int expected = 0;
             Assert.AreEqual(expected, actual);
         }
@@ -88,9 +88,19 @@ namespace QuantityMeasurementTesting
         [Test]
         public void GivenValueTo_InchClass_WhenAnalyse_ReturnEqual()
         {
-            Inch inch = new Inch(10);
-            int actual = inch.Equalsvalue();
+            UnitCheck inch = new UnitCheck(10);
+            int actual = inch.CheckLength();
             int expected = 10;
+            Assert.AreEqual(expected, actual);
+        }
+
+        [Test]
+        public void Test11()
+        {
+            Inch inch = new Inch(15);
+            Feet feet = new Feet(15);
+            int actual = inch.CheckInch_Value();
+            int expected = feet.CheckFeet_Value();
             Assert.AreEqual(expected, actual);
         }
     }

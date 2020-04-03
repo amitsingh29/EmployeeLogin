@@ -16,7 +16,7 @@ namespace QuantityMeasurement
             this.inch = inch;
         }
 
-        public int Equalsvalue()
+        public int CheckInch_Value()
         {
             return this.inch;
         }
