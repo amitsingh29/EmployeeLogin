@@ -39,8 +39,9 @@ namespace QuantityMeasurementTesting
         [Test]
         public void GivenObjectType_WhenAnalyse_ReturnTrue()
         {
-            Feet feet = new Feet();
-            bool result = feet.Equals(new Feet());
+
+            UnitCheck feet = new UnitCheck("Feet");
+            bool result = feet.Equals(new UnitCheck());
             Assert.IsTrue(result);
         }
 
