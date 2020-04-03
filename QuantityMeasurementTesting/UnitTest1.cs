@@ -48,7 +48,7 @@ namespace QuantityMeasurementTesting
         [Test]
         public void GivenValueToFeetClass_WhenAnalyse_ReturnEqusl()
         {
-            UnitCheck feet = new UnitCheck(0);
+            UnitCheck feet = new UnitCheck("Feet", 5);
             int actual = feet.CheckLength();
             int expected = 5;
             Assert.AreEqual(expected, actual);
