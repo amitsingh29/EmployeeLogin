@@ -215,5 +215,6 @@ namespace QuantityMeasurementTesting
             double expected = farenheit.EqualsValue();
             Assert.AreEqual(expected, actual);
         }
+
     }
 }
