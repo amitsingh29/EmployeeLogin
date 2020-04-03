@@ -250,6 +250,13 @@ namespace QuantityMeasurementTesting
             Assert.AreEqual(expected, actual);
         }
 
+        [Test]
+        public void PerForm_Test_For_KiloGram_Equality_Null_Check()
+        {
+            UnitCheck kilogram = new UnitCheck("KiloGram");
+            bool result = kilogram.Equals(null);
+            Assert.IsTrue(result);
+        }
 
     }
 }
