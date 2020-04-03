@@ -82,7 +82,7 @@ namespace QuantityMeasurementTesting
         [Test]
         public void GivenObjectTo_InchClassEqualsMethod_WhenAnalyse_ReturnTrue()
         {
-            Inch inch = new Inch();
+            UnitCheck inch = new UnitCheck("Inch");
             bool actual = inch.Equals(new Inch());
             Assert.IsTrue(actual);
         }
@@ -97,12 +97,12 @@ namespace QuantityMeasurementTesting
         }
 
         [Test]
-        public void Test11()
+        public void Give_15_Feet_and_15_Inch_Should_Return_Equal()
         {
-            Inch inch = new Inch(15);
-            Feet feet = new Feet(15);
-            int actual = inch.CheckInch_Value();
-            int expected = feet.CheckFeet_Value();
+            UnitCheck feet = new UnitCheck("Feet", 15);
+            int expected = feet.EqualsValue();
+            UnitCheck inch = new UnitCheck("Inch", 15);
+            int actual = inch.EqualsValue();
             Assert.AreEqual(expected, actual);
         }
 
