@@ -258,5 +258,12 @@ namespace QuantityMeasurementTesting
             Assert.IsTrue(result);
         }
 
+        [Test]
+        public void Perform_Test_For_KiloGram_Equality_Ref_Check()
+        {
+            UnitCheck kilogram = new UnitCheck("KiloGram");
+            bool result = kilogram.Equals(kilogram);
+            Assert.IsTrue(result);
+        }
     }
 }
