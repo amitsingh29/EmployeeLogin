@@ -24,7 +24,7 @@ namespace QuantityMeasurement
             this.length = length;
         }
 
-        public int CheckLength()
+        public int EqualsValue()
         {
             return this.length;
         }
