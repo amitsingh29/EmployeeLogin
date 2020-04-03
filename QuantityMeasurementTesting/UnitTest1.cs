@@ -185,5 +185,15 @@ namespace QuantityMeasurementTesting
             int expected = cel.EqualsValue();
             Assert.AreEqual(expected, actual);
         }
+
+        [Test]
+        public void Compare_1_Celcius_NotEqual_to_2_Celcius_return_False()
+        {
+            UnitCheck celcius = new UnitCheck("Celcius", 1);
+            int actual = celcius.EqualsValue();
+            Celcius cel = new Celcius(2);
+            int expected = cel.EqualsValue();
+            Assert.AreNotEqual(expected, actual);
+        }
     }
 }
