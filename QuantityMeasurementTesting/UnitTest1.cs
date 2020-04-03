@@ -216,5 +216,13 @@ namespace QuantityMeasurementTesting
             Assert.AreEqual(expected, actual);
         }
 
+        [Test]
+        public void PerFormTestFor_Gram_EqualityNullCheck()
+        {
+            UnitCheck gram = new UnitCheck("Gram");
+            bool result = gram.Equals(null);
+            Assert.IsTrue(result);
+        }
+
     }
 }
