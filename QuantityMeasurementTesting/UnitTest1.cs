@@ -317,5 +317,13 @@ namespace QuantityMeasurementTesting
             int expected = cel.EqualsValue();
             Assert.AreEqual(expected, actual);
         }
+
+        [Test]
+        public void PerForm_Test_For_Farenheit_Equality_Null_Check()
+        {
+            UnitCheck farenheit = new UnitCheck("Farenheit");
+            bool result = farenheit.Equals(null);
+            Assert.IsTrue(result);
+        }
     }
 }
