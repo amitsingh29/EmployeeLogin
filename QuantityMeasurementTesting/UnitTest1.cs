@@ -299,5 +299,13 @@ namespace QuantityMeasurementTesting
             bool result = celcius.Equals(celcius);
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void Perform_Test_For_Celcius_Equality_Type_Check()
+        {
+            UnitCheck celcius = new UnitCheck("Celcius");
+            bool result = celcius.Equals(new UnitCheck());
+            Assert.IsTrue(result);
+        }
     }
 }
