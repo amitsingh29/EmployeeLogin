@@ -28,5 +28,20 @@ namespace QuantityMeasurement
         {
             return this.length;
         }
+
+        public UnitCheck(string type)
+        {
+            this.unit_type = type;
+        }
+
+        public int EqualsValue()
+        {
+            return this.length;
+        }
+
+        public int ConvertFeetToInch()
+        {
+            return this.length * 12;
+        }
     }
 }

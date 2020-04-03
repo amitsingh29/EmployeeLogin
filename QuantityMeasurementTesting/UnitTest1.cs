@@ -103,5 +103,15 @@ namespace QuantityMeasurementTesting
             int expected = feet.CheckFeet_Value();
             Assert.AreEqual(expected, actual);
         }
+
+        [Test]
+        public void Compare_1ft_Not_Equal_to_1inch_return_False()
+        {
+            UnitCheck feet = new UnitCheck("Feet", 1);
+            int expected = feet.EqualsValue();
+            UnitCheck inch = new UnitCheck("Inch", 1);
+            int actual = inch.EqualsValue();
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
