@@ -307,5 +307,15 @@ namespace QuantityMeasurementTesting
             bool result = celcius.Equals(new UnitCheck());
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void Perform_Test_For_Celcius_Equality_Value_Check()
+        {
+            UnitCheck celcius = new UnitCheck("Celcius", 3);
+            int actual = celcius.EqualsValue();
+            Celcius cel = new Celcius(3);
+            int expected = cel.EqualsValue();
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
