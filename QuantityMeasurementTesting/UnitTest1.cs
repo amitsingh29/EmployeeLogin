@@ -23,7 +23,7 @@ namespace QuantityMeasurementTesting
         [Test]
         public void GivenNullTo_EqualsMethod_WhenAnalyse_ReturnTrue()
         {
-            Feet feet = new Feet();
+            UnitCheck feet = new UnitCheck("Feet");
             bool actual = feet.Equals(null);
             Assert.IsTrue(actual);
         }
