@@ -283,5 +283,13 @@ namespace QuantityMeasurementTesting
             int expected = kg.EqualsValue();
             Assert.AreEqual(expected, actual);
         }
+
+        [Test]
+        public void PerForm_Test_For_Celcius_Equality_Null_Check()
+        {
+            UnitCheck celcius = new UnitCheck("Celcius");
+            bool result = celcius.Equals(null);
+            Assert.IsTrue(result);
+        }
     }
 }
