@@ -325,5 +325,13 @@ namespace QuantityMeasurementTesting
             bool result = farenheit.Equals(null);
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void Perform_Test_For_Farenheit_Equality_Ref_Check()
+        {
+            UnitCheck farenheit = new UnitCheck("Farenheit");
+            bool result = farenheit.Equals(farenheit);
+            Assert.IsTrue(result);
+        }
     }
 }
