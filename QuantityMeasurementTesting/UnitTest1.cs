@@ -16,7 +16,7 @@ namespace QuantityMeasurementTesting
             UnitCheck feet = new UnitCheck("Feet", 0);
             int result = feet.EqualsValue();
             Feet feet1 = new Feet(0);
-            int expected = feet1.CheckFeet_Value();
+            int expected = feet1.ConvertFeetToInch();
             Assert.AreEqual(expected, result);
         }
 
@@ -132,7 +132,7 @@ namespace QuantityMeasurementTesting
             UnitCheck inch = new UnitCheck("Inch", 1);
             double actual = inch.ConvertInchToFeet();
             Feet feet = new Feet(1);
-            int expected = feet.CheckFeet_Value();
+            int expected = feet.ConvertFeetToInch();
             Assert.AreNotEqual(expected, actual);
         }
 

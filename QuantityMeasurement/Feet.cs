@@ -22,7 +22,7 @@ namespace QuantityMeasurement
             this.feet = feet;
         }
 
-        public int CheckFeet_Value()
+        public int ConvertFeetToInch()
         {
             return this.feet;
         }
