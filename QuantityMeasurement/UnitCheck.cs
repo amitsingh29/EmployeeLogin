@@ -48,5 +48,23 @@ namespace QuantityMeasurement
         {
             return this.length / 12;
         }
+
+        public double CelciustoFarenheit()
+        {
+            return this.length * 33.8;
+        }
+
+        public int KgtoGram()
+        {
+            return this.length * 1000;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if ((obj == null) || Object.ReferenceEquals(this, obj) || this.GetType().Equals(obj.GetType()))
+                return true;
+
+            return false;
+        }
     }
 }

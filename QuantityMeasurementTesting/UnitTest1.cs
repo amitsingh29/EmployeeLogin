@@ -13,10 +13,11 @@ namespace QuantityMeasurementTesting
         [Test]
         public void GivenValueIn_FeetClassEqualsValueFunction_WhenAnalyse_ReturnEqual()
         {
-            UnitCheck feet = new UnitCheck(0);
-            int actual = feet.CheckLength();
-            int expected = 0;
-            Assert.AreEqual(expected, actual);
+            UnitCheck feet = new UnitCheck("Feet", 0);
+            int result = feet.EqualsValue();
+            Feet feet1 = new Feet(0);
+            int expected = feet1.CheckFeet_Value();
+            Assert.AreEqual(expected, result);
         }
 
         [Test]
