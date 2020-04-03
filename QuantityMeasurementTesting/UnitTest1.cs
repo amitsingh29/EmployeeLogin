@@ -232,6 +232,13 @@ namespace QuantityMeasurementTesting
             Assert.IsTrue(result);
         }
 
+        [Test]
+        public void Perform_Test_For_Gram_Equality_Type_Check()
+        {
+            UnitCheck gram = new UnitCheck("Gram");
+            bool result = gram.Equals(new UnitCheck());
+            Assert.IsTrue(result);
+        }
 
     }
 }
