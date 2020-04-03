@@ -195,5 +195,15 @@ namespace QuantityMeasurementTesting
             int expected = cel.EqualsValue();
             Assert.AreNotEqual(expected, actual);
         }
+
+        [Test]
+        public void GiveCelciusValueAs1_WhenCalculate_ShouldReturnFalse()
+        {
+            UnitCheck celcius = new UnitCheck("Celcius", 1);
+            double actual = celcius.CelciustoFarenheit();
+            Farenheit farenheit = new Farenheit(1);
+            double expected = farenheit.EqualsValue();
+            Assert.AreNotEqual(expected, actual);
+        }
     }
 }
