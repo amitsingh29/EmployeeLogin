@@ -57,7 +57,7 @@ namespace QuantityMeasurementTesting
         [Test]
         public void GivenValueIn_InchClassEqualsValueFunction_WhenAnalyse_ReturnEqual()
         {
-            UnitCheck inch = new UnitCheck(0);
+            UnitCheck inch = new UnitCheck("Inch", 0);
             int actual = inch.CheckLength();
             int expected = 0;
             Assert.AreEqual(expected, actual);
