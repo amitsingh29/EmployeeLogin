@@ -49,7 +49,7 @@ namespace QuantityMeasurementTesting
         public void GivenValueToFeetClass_WhenAnalyse_ReturnEqusl()
         {
             UnitCheck feet = new UnitCheck("Feet", 5);
-            int actual = feet.CheckLength();
+            int actual = feet.EqualsValue();
             int expected = 5;
             Assert.AreEqual(expected, actual);
         }
@@ -58,7 +58,7 @@ namespace QuantityMeasurementTesting
         public void GivenValueIn_InchClassEqualsValueFunction_WhenAnalyse_ReturnEqual()
         {
             UnitCheck inch = new UnitCheck("Inch", 0);
-            int actual = inch.CheckLength();
+            int actual = inch.EqualsValue();
             int expected = 0;
             Assert.AreEqual(expected, actual);
         }
@@ -91,7 +91,7 @@ namespace QuantityMeasurementTesting
         public void GivenValueTo_InchClass_WhenAnalyse_ReturnEqual()
         {
             UnitCheck inch = new UnitCheck(10);
-            int actual = inch.CheckLength();
+            int actual = inch.EqualsValue();
             int expected = 10;
             Assert.AreEqual(expected, actual);
         }
@@ -117,11 +117,13 @@ namespace QuantityMeasurementTesting
         }
 
         [Test]
-        public void Compare_1Feet_NotEqual_to_12_inch_return_False()
+        public void Compare_1Feet_NotEqual_to_1_inch_return_False()
         {
             UnitCheck feet = new UnitCheck("Feet", 1);
             int actual = feet.ConvertFeetToInch();
-            Assert.AreEqual(12, actual);
+            Inch inch = new Inch(1);
+            int expected = inch.CheckInch_Value();
+            Assert.AreNotEqual(expected, actual);
         }
 
         [Test]
@@ -129,7 +131,9 @@ namespace QuantityMeasurementTesting
         {
             UnitCheck inch = new UnitCheck("Inch", 1);
             double actual = inch.ConvertInchToFeet();
-            Assert.AreNotEqual(1, actual);
+            Feet feet = new Feet(1);
+            int expected = feet.CheckFeet_Value();
+            Assert.AreNotEqual(expected, actual);
         }
 
         [Test]
@@ -137,7 +141,9 @@ namespace QuantityMeasurementTesting
         {
             UnitCheck feet = new UnitCheck("Feet", 1);
             int actual = feet.ConvertFeetToInch();
-            Assert.AreEqual(12, actual);
+            Inch inch = new Inch(12);
+            int expected = inch.CheckInch_Value();
+            Assert.AreEqual(expected, actual);
         }
 
         [Test]
@@ -145,7 +151,20 @@ namespace QuantityMeasurementTesting
         {
             UnitCheck inch = new UnitCheck("Inch", 12);
             double actual = inch.ConvertInchToFeet();
-            Assert.AreEqual(1, actual);
+            Feet feet = new Feet(1);
+            int expected = feet.ConvertFeetToInch();
+            Assert.AreEqual(expected, actual); 
         }
+
+        [Test]
+        public void Compare_1kg_Equal_to_1000gm_return_True()
+        {
+            UnitCheck kg = new UnitCheck("Kilogram", 1);
+            double actual = kg.KgtoGram();
+            Gram gm = new Gram(1000);
+            int expected = gm.EqualsValue();
+            Assert.AreEqual(expected, actual);
+        }
+
     }
 }
