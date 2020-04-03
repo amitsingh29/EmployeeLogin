@@ -66,7 +66,7 @@ namespace QuantityMeasurementTesting
         [Test]
         public void GivenNullTo_InchClassEqualsMethod_WhenAnalyse_ReturnTrue()
         {
-            Inch inch = new Inch();
+            UnitCheck inch = new UnitCheck("Inch", 0);
             bool actual = inch.Equals(null);
             Assert.IsTrue(actual);
         }
