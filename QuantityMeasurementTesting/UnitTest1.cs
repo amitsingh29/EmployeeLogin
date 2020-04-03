@@ -121,5 +121,13 @@ namespace QuantityMeasurementTesting
             int actual = feet.ConvertFeetToInch();
             Assert.AreEqual(12, actual);
         }
+
+        [Test]
+        public void Compare_1inch_Not_Equal_to_1ft_return_False()
+        {
+            UnitCheck inch = new UnitCheck("Inch", 1);
+            double actual = inch.ConvertInchToFeet();
+            Assert.AreNotEqual(1, actual);
+        }
     }
 }

@@ -43,5 +43,10 @@ namespace QuantityMeasurement
         {
             return this.length * 12;
         }
+
+        public double ConvertInchToFeet()
+        {
+            return this.length / 12;
+        }
     }
 }
