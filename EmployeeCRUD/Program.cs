@@ -16,12 +16,13 @@ namespace EmployeeCRUD
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
-            Log.Logger = new LoggerConfiguration()
-           .MinimumLevel.Debug()
-           .WriteTo.File(@"C:\Users\Amit Singh\Desktop\Loggert.txt")
-           .CreateLogger();
         }
 
+        /// <summary>
+        /// Creates the web host builder.
+        /// </summary>
+        /// <param name="args">The arguments.</param>
+        /// <returns>web host builder type</returns>
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();

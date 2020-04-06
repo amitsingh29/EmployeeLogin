@@ -1,3 +1,4 @@
+F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.csprojAssemblyReference.cache
 F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.csproj.CoreCompileInputs.cache
 F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.RazorAssemblyInfo.cache
 F:\EmployeeCrud\EmployeeLogin\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.RazorAssemblyInfo.cs
